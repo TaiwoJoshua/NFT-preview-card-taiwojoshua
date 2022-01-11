@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 100vh
+        }
+        .container{
+            width: inherit;
+            height: inherit;
+            display: flex;
+        }
+        .container>.color{
+            border: 1px solid gray;
+            padding: 20px;
+            width: 150px;
+            height: 150px;
+            /* background-color: black; */
+        }
+        .one{
+            background-color: hsl(215, 51%, 70%);
+        }
+        .two{
+            background-color: hsl(178, 100%, 50%);
+        }
+        .three{
+            background-color: hsl(217, 54%, 11%);
+        }
+        .four{
+            background-color: hsl(216, 50%, 16%);
+        }
+        .five{
+            background-color: hsl(215, 32%, 27%);
+        }
+        .six{
+            background-color: hsl(0, 0%, 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="color one"></div>
+        <div class="color two"></div>
+        <div class="color three"></div>
+        <div class="color four"></div>
+        <div class="color five"></div>
+        <div class="color six"></div>
+    </div>
+</body>
+</html>
